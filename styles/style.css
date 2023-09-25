@@ -1,1 +1,75 @@
-/* место для вашего кода */
+/* ХЭДЕР */
+
+.header {
+  margin: 92px 49px 92px 51px;
+  width: 1340px;
+  height: 109px;
+ 
+}
+
+.header_ul_left {
+  display: flex;
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header_ul_li_left {
+  margin-top: 43px;
+  margin-bottom: 45px;
+}
+
+.li-first {
+  list-style: none;
+  margin-left: 0;
+}
+
+.li-second {
+  list-style: circle;
+  margin-left: 32px;
+}
+
+.li-third {
+  list-style: circle;
+  margin-left: 32px;
+}
+
+/* ЛОГО-КАРТИНКА */
+
+.header_logo_img {
+  width: 148px;
+  height: 105px;
+  flex-shrink: 0;
+  margin-left: 209px;
+  margin-right: 355px;
+}
+
+.header_ul_right {
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
+  list-style: none;
+}
+
+.li-four {
+    margin-top: 5px;
+}
+
+.li-six {
+    margin-bottom: 7px;
+}
+
+/* ГЛАВНЫЙ КОНТЕНТ НА СТРАНИЦЕ */
+
+.beatiful_img {
+    width: 1440px;
+    height: 757px;
+    flex-shrink: 0;
+    margin-left: 100px;
+}
