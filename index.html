@@ -1,45 +1,122 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link rel="stylesheet" href="styles/global.css">
-       <link rel="stylesheet" href="fonts/fonts.css">
-       <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
 
-<body>
-
+  <body>
     <header class="header">
-        <!-- СЛЕВА -->
-        <ul class="header_ul_left">
-          <li class="header_ul_li_left li-first">главная</li>
-          <li class="header_ul_li_left li-second">посмотреть лоты</li>
-          <li class="header_ul_li_left li-third">ob аукционе</li>
+      <!-- СЛЕВА -->
+      <ul class="header_ul_left">
+        <li class="header_ul_li_left li-first">главная</li>
+        <li class="header_ul_li_left li-second">посмотреть лоты</li>
+        <li class="header_ul_li_left li-third">ob аукционе</li>
 
         <!-- КАРТИНКА ЛОГО -->
-        <img class="header_logo_img" src="images/logo-black.svg" alt="лого">
- 
+        <a class="header_logo_img" href="#"
+          ><img src="images/logo-black.svg" alt="лого"
+        /></a>
+
         <!-- СПРАВА -->
-          <ul class="header_ul_right">
-            <li class="header_ul_li_right li-four"> <a href="tel:+9 999 555 5555">+9 999 555 5555</a> </li>
-            <li class="header_ul_li_right li-five"> <a href="mailto:info@sobaka.ge">info@sobaka.ge</a> </li>
-            <li class="header_ul_li_right li-six"> <address>наб. Принсенграхт 263-265, <br> Амстердам</address> </li>
-          </ul>
+        <ul class="header_ul_right">
+          <li class="header_ul_li_right li-four">
+            <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
+          </li>
+          <li class="header_ul_li_right li-five">
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </li>
+          <li class="header_ul_li_right li-six">
+            <address>
+              наб. Принсенграхт 263-265, <br />
+              Амстердам
+            </address>
+          </li>
         </ul>
+      </ul>
     </header>
 
-    <main>
-        <section class="content_on_large_img">
-            <img class="beatiful_img" src="images/cover.jpg" alt="красивая картинка">
-        </section>
+    <section class="cover">
+      <div class="overlay">
+        <!-- ПЕРВОЕ СЛОВО -->
+        <h1 class="cover_h1_first">O<span class="word_spasing1">H</span>O</h1>
 
-        <h1>title</h1>
+        <!-- ВТОРОЕ СЛОВО -->
+        <div class="cover_h1_second">
+          <h1 style="padding-left: 23px">
+            ТЕ<span class="word_spasing2">Б</span>Е
+          </h1>
+        </div>
 
-    </main>
+        <!-- ТРЕТЬЕ СЛОВО -->
+        <div class="cover_h1_third">
+          <h1>
+            НА <span class="word-nado3">Д</span
+            ><span class="word-nado4">О</span>
+          </h1>
+        </div>
 
-</body>
+        <!-- ПОДЗАГОЛОВОК -->
+        <div class="cover_low_title">
+          <p>Аукцион вещей, в которые никто не верил</p>
+        </div>
 
+        <!-- КНОПКА -->
+        <button class="cover_button">сделать ставку</button>
+      </div>
+    </section>
+
+    <!-- 3 КАРТИНКИ -->
+
+    <section class="lots">
+      <h1>ЛОТЫ</h1>
+
+      <div class="main_lots">
+        <div class="lot_1">
+          <h2>Фильм режиссёра, который бросил киношколу</h2>
+          <p>
+            Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
+            если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+          </p>
+        </div>
+
+        <div class="lot_2">
+          <h2>
+            Книга, где описан один скучный день из жизни рекламного агента
+          </h2>
+          <p>
+            Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+            переходами на древнеанглийский. В ней одновременно рассказывается о
+            16 июня 1904 года и об истории литературы, начиная с античных
+            времён. И это всё накладывается на эпическую поэму Гомера. Сколько
+            бы вы поставили на «Улисса» Джеймса Джойса?
+          </p>
+        </div>
+
+        <div class="lot_3">
+          <h2>Картина, которую повторит даже 5-летний сын маминой подруги</h2>
+          <p>
+            Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
+            похожее на инфузорию-туфельку. Никаких полей, лесов, котиков…
+            Сколько бы вы на такое поставили, если бы не знали, что это — одна
+            из революционных работ Кандинского?
+          </p>
+        </div>
+      </div>
+
+      <a href="#">посмотреть позже</a>
+    </section>
+
+    <section class="about">
+
+    </section>
+
+
+
+  </body>
 </html>
