@@ -13,144 +13,98 @@
   <body>
 
     <!-- ХЭДЕР, ШАПКА САЙТА -->
-
     <header class="header">
-    <nav>
-        <!-- СЛЕВА -->
-      <ul class="header_ul_left">
 
-        <li class="header_ul_li_left li-first">главная</li>
-        <li class="header_ul_li_left li-second">посмотреть лоты</li>
-        <li class="header_ul_li_left li-third">o6 аукционе</li>
+      <nav class="header_nav">
+          <ul class="header_nav-list">
+              <li class="list-style-without-underline"> <a href="#">главная</a> </li>
+              <li class="list-style-circle"> <a href="#">посмотреть лоты</a> </li>
+              <li class="list-style-circle"> <a href="#">o6 аукционе</a> </li>
+          </ul>
 
-        <!-- КАРТИНКА ЛОГО -->
-        <a class="header_logo_img" href="#"> <img src="images/logo-black.svg" alt="лого"/> </a>
+          <a class="header_logo" href="#"> <img src="images/logo-black.svg" alt="лого"/> </a>
 
-        <!-- СПРАВА -->
-        <address>
-        <ul class="header_ul_right">
-          <li class="header_ul_li_right li-four">
-            <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
-          </li>
-          <li class="header_ul_li_right li-five">
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li class="header_ul_li_right li-six">
-            <p>
-              наб. Принсенграхт 263-
-              <p>265,Амстердам</p>
-            </p>
-          </li>
-        </ul>
-        </address>
+          <address>
+          <ul class="header_contacts">
+              <li> <a href="tel:+9 999 555 5555">+9 999 555 5555</a> </li>
+              <li> <a href="mailto:info@sobaka.ge">info@sobaka.ge</a> </li>
+              <li> <p>наб. Принсенграхт 263-<p>265, Амстердам</p></p> </li>
+          </ul>
+          </address>
+      </nav>
 
-      </ul>
-
-    </nav>
-    </header>
+  </header>
 
   <main>
     <section class="cover">
+      <div class="overlay"></div>
 
-      <!-- ДЕЛАЮ ПОЛУПРОЗРАЧНЫЙ ФОН -->
+      <h1 class="cover_title">
+          <span class="text_aligned-left"> <span>O</span>HO</span> 
+          <span class="text_aligned-center"> <span>T</span><span>E</span>БЕ</span>
+          <span class="text_aligned-right">
+            <span class="letter-wide">H</span><span class="letter-standart">AД</span><span class="no-letter">O</span>
+          </span>
+      </h1>
 
-      <div class="overlay">
+      <div class="cover_low">
+        <p class="cover_low_text">Аукцион вещей, в которые никто не верил</p>
+        <button class="cover_low_button">Сделать ставку</button>
       </div>
-
-        <!-- ПЕРВОЕ СЛОВО -->
-        <h1 class="cover_h1_first">O<span class="word_spasing1">H</span>O</h1>
-
-        <!-- ВТОРОЕ СЛОВО -->
-        <div class="cover_h1_second">
-          <h1 style="padding-left: 23px">
-            ТЕ<span class="word_spasing2">Б</span>Е
-          </h1>
-        </div>
-
-        <!-- ТРЕТЬЕ СЛОВО -->
-        <div class="cover_h1_third">
-          <h1>
-            НА <span class="word-nado3">Д</span
-            ><span class="word-nado4">О</span>
-          </h1>
-        </div>
-
-        <!-- ПОДЗАГОЛОВОК -->
-        <div class="cover_low_title">
-          <p>Аукцион вещей, в которые никто не верил</p>
-        </div>
-
-        <!-- КНОПКА -->
-        <button class="cover_button">сделать ставку</button>
-    </section>
+  </section>
 
 
 
     <!-- 3 КАРТИНКИ -->
-
     <section class="lots">
-      <h1>ЛОТЫ</h1>
+      <h2 class="lots_title">ЛОТЫ</h2>
 
-      <div class="main_lots">
-
-        <div class="lot_1">
-          <div class="overlay1">
-          </div>
+      <div class="cards">
           
-          <h2>Фильм режиссёра, который бросил киношколу</h2>
-          <p>
-            Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
-            если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-          </p>
-        </div>
+          <a href="#">
+            <div class="card card_type_film">
+                <div class="overlay"></div>
+                <h3>Фильм режиссёра, который бросил киношколу</h3>
+                <p>He просто бросил, a ушёл c первой лекции. Какой была бы ваша ставка,
+                    если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                </p>
+            </div>
+          </a>
 
-        <div class="lot_2">
-          <div class="overlay1">
-          </div>
+          <a href="#">
+            <div class="card card_type_book">
+                <div class="overlay"></div>
+                <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
+                <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и c
+                    переходами на древнеанглийский. B ней одновременно рассказывается o
+                    16 июня 1904 года и o6 истории литературы, начиная c античных времён.
+                    И это всё накладывается на эпическую поэму Гомера. Сколько бы вы
+                    поставили на «Улисса» Джеймса Джойса?
+                </p>
+            </div>
+          </a>
 
-          <h2>
-            Книга, где описан один скучный день из жизни рекламного агента
-          </h2>
-          <p>
-            Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-            переходами на древнеанглийский. В ней одновременно рассказывается о
-            16 июня 1904 года и об истории литературы, начиная с античных
-            времён. И это всё накладывается на эпическую поэму Гомера. Сколько
-            бы вы поставили на «Улисса» Джеймса Джойса?
-          </p>
-        </div>
+          <a href="#">
+            <div class="card card_type_picture">
+                <div class="overlay"></div>
+                <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                <p>Hy действительно, там линия, тут кружочек, a здесь и вовсе что-то
+                    похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
+                    Сколько бы вы на такое поставили, если бы не знали, что это
+                    — одна из революционных работ Кандинского?
+                </p>
+            </div>
+          </a>
 
-        <div class="lot_3">
-          <div class="overlay1">
-          </div>
-
-          <h2>Картина, которую повторит даже 5-летний сын маминой подруги</h2>
-          <p>
-            Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-            похожее на инфузорию-туфельку. Никаких полей, лесов, котиков…
-            Сколько бы вы на такое поставили, если бы не знали, что это — одна
-            из революционных работ Кандинского?
-          </p>
-        </div>
       </div>
 
-      <a href="#">посмотреть больше</a>
+      <a href="#" class="lots_link-more">посмотреть больше</a>
     </section>
-
-
-
-
-
-
-
-
-
 
 
 
 
     <!-- СЕКЦИЯ ЭБАУТ -->
-
     <section class="about">
 
       <div class="about_logo">
@@ -159,9 +113,9 @@
       <div class="about_text">
         <h2>ОБ АУКЦИОНЕ</h2>
 
-        <p style="margin-bottom: 25px;">
+        <p>
           Здесь вы не встретите очередное пафосное собрание невероятно дорогого
-          антиквариата. Наши лоты вообще не должны были попасть ни на один
+          антиквариата. Наши лоты вообще не должны были попасть<br> ни на один
           аукцион. Потому что кому нужен дневник девочки-подростка или картина,
           которую может нарисовать даже ребёнок? Кому нужны все эти странные
           вещи, созданные любителями?
@@ -170,10 +124,10 @@
         <p>
           Слишком сложные или, наоборот, слишком простые. Опережающие своё
           время. B пух и прах растерзанные критиками. Непринятые и непонятые.
-          Когда-то они казались просто неудачными. Ho, несмотря на критику,
+          Когда-то они казались просто неудачными. Ho, несмотря<br> на критику,
           кажущуюся простоту или сложность, сейчас без этих лотов невозможно
           представить современную культуру. Когда в эти вещи не верил никто,
-          продолжали верить их создатели. И сейчас эти лоты стали культовыми.
+          продолжали верить их создатели. И сейчас эти лоты<br> стали культовыми.
         </p>
       </div>
 
@@ -183,24 +137,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- ФУТЕР -->
-
     <footer class="footer">
     <nav class="nav_footer">
 
