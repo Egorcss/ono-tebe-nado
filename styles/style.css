@@ -1,4 +1,6 @@
-
+a:hover {
+  border: 1px solid salmon;
+}
 
 /* ХЭДЕР */
 .header {
@@ -51,8 +53,6 @@
   margin-right: 60px;
   margin-top: 5px;
 }
-
-
 
 /* ОГРОМНАЯ КАРТИНКА И ТЕКСТ НА НЕЙ */
 .cover {
@@ -170,21 +170,11 @@
   margin: 0 0 27px 40px;
 }
 
-.lots_link-more {
-  display: block;
-  font-family: Raleway, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 23px;
-  margin: 30px 0 0 40px;
-}
-
 .cards {
   min-height: 563px;
   display: flex;
   justify-content: space-between;
   column-gap: 20px;
-  flex-grow: 1;
 }
 
 .cards > a {
@@ -192,11 +182,12 @@
   text-decoration: none;
   max-width: 334px;
   min-height: 563px;
-  
 }
 
 .card {
+  flex-grow: 1;
   height: 100%;
+  width: 100%;
   position: relative;
 }
 
@@ -249,9 +240,17 @@
   justify-content: space-between;
 }
 
+.lots_link-more {
+  display: block;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  margin: 30px 0 0 40px;
+}
+
 
 /* ДОП. ИНФОРМАЦИЯ */
-
 .about {
   margin: 150px 24px 180px 24px;
   max-width: 1052px;
@@ -310,12 +309,10 @@
 
 
 /* ФУТЕР, ПОДВАЛ САЙТА */
-
 .footer {
   max-width: 1000px;
   max-height: 98px;
   margin: 180px 50px 88px 50px;
-  
 }
 
 .nav_footer {
