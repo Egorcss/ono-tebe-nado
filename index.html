@@ -9,48 +9,50 @@
         <link rel="stylesheet" href="styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
-
-  <body>
+<body>
 
     <!-- ХЭДЕР, ШАПКА САЙТА -->
-    <header class="header">
+  <header class="header">
 
       <nav class="header_nav">
           <ul class="header_nav-list">
-              <li class="list-style-without-underline"> <a href="#">главная</a> </li>
+              <li> <a href="#">главная</a> </li>
               <li class="list-style-circle"> <a href="#">посмотреть лоты</a> </li>
               <li class="list-style-circle"> <a href="#">o6 аукционе</a> </li>
           </ul>
-
-          <a class="header_logo" href="#"> <img src="images/logo-black.svg" alt="лого"/> </a>
-
-          <address>
-          <ul class="header_contacts">
-              <li> <a href="#">+9 999 555 5555</a> </li>
-              <li> <a href="mailto:info@sobaka.ge">info@sobaka.ge</a> </li>
-              <li class="list-style-without-underline"> <a href="#">наб. Принсенграхт 263-<p>265, Амстердам</p></a> </li>
-          </ul>
-          </address>
       </nav>
+
+      <a class="header_logo" href="#"> <img src="images/logo-black.svg" alt="лого"/> </a>
+
+      <address class="address_nav">
+          <ul class="contacts">
+              <li> <a href="tel:+9 999 555 5555">+9 999 555 5555</a> </li>
+              <li> <a href="mailto:info@sobaka.ge">info@sobaka.ge</a> </li>
+              <li class="contacts_address-location"> <a href="#">наб. Принсенграхт 263-<p>265, Амстердам</p></a> </li>
+          </ul>
+      </address>
 
   </header>
 
+
+  
+  <!-- КОНТЕЙНЕР МЭИН -->
   <main>
     <!-- СЕКЦИЯ КАВЕР С ЦВЕТКОМ -->
     <section class="cover">
       <div class="overlay"></div>
 
       <h1 class="cover_title">
-          <span class="text_aligned-left"> <span>O</span>HO</span> 
-          <span class="text_aligned-center"> <span>T</span><span>E</span>БЕ</span>
+          <span class="text_aligned-left">O<span class="letter-wide">HO</span></span> 
+          <span class="text_aligned-center">TE<span class="letter-wide">БE</span></span>
           <span class="text_aligned-right">
-            <span class="letter-wide">H</span><span class="letter-standart">AД</span><span class="no-letter">O</span>
+            <span class="letter-wide">H</span><span>AД</span><span class="no-letter">O</span>
           </span>
       </h1>
 
       <div class="cover_low">
         <p class="cover_low_text">Аукцион вещей, в которые никто не верил</p>
-        <button class="cover_low_button">Сделать ставку</button>
+        <button type="button" class="cover_low_button">Сделать ставку</button>
       </div>
   </section>
 
@@ -104,11 +106,11 @@
 
 
 
-
     <!-- СЕКЦИЯ ЭБАУТ -->
     <section class="about">
 
       <div class="about_logo">
+          <img class="about_logo_image" src="images/logo-white.svg" alt="картинка для секции эбаут">
       </div>
 
       <div class="about_text">
@@ -137,33 +139,34 @@
 
 
 
-
     <!-- ФУТЕР -->
-    <footer class="footer">
-      <nav class="nav_footer">
-  
-        <div class="contacts">
-          <a href="#">+9 999 555 5555</a>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <a class="menu__link-none-decoration" href="#">наб. Принсенграхт 263-<p>265, Амстердам</p></a>
-        </div>
-  
-        <div class="menu">
-          <a class="menu__link-none-decoration" href="#">главная</a>
-          <a href="#">посмотреть лоты</a>
-          <a href="#">o6 аукционе</a>
-        </div>
-  
-        <div class="socials">
-            <div class="youtube_icon"> <img src="images/yt.svg" alt="ютуб"> </div>
-            <div class="VK_icon"> <img src="images/vk.svg" alt="вк"> </div>
-            <div class="pinter_icon"> <img src="images/pinterest.svg" alt="пинтер"> </div> 
-        </div>
-  
+  <footer class="footer">
+
+      <address>
+          <ul class="contacts">
+              <li> <a href="tel:+9 999 555 5555">+9 999 555 5555</a> </li>
+              <li> <a href="mailto:info@sobaka.ge">info@sobaka.ge</a> </li>
+              <li class="contacts_address-location"> <a href="#">наб. Принсенграхт 263-<p>265, Амстердам</p></a> </li>
+          </ul>
+      </address>
+        
+      <nav>
+          <div class="menu">
+              <a href="#">главная</a>
+              <a href="#">посмотреть лоты</a>
+              <a href="#">o6 аукционе</a>
+          </div>
       </nav>
-      </footer>
+
+      <div class="socials">
+          <div class="youtube_icon"> <a href="#"><img src="images/yt.svg" alt="ютуб"></a> </div>
+          <div class="VK_icon"> <a href="#"><img src="images/vk.svg" alt="вк"></a> </div>
+          <div class="pinter_icon"> <a href="#"><img src="images/pinterest.svg" alt="пинтер"></a> </div> 
+      </div>
+  
+  </footer>
 
 
 
-  </body>
+</body>
 </html>
